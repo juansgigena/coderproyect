@@ -1,0 +1,59 @@
+@import "variables"; 
+@import "animaciones";
+
+/*MAIN*/
+/*CONTENT*/
+.article-settings{
+    .article-title--1{
+    font-weight: 400;
+    font-size: 2rem;
+    }
+    .article-title--2{
+    font-weight: 700;
+    font-size: 6rem;
+    }
+    .article-title--3{
+    font-weight: 400;
+    font-size: 3rem;
+    }
+    .article-title--4{
+    font-weight: 700;
+    color: $colorbase;
+    }
+    .article-text{
+    border: 1px solid $colorbase;
+    border-radius: 3rem;
+    font-weight: 400;
+    text-align:start;
+    font-size: 3rem;
+}
+}
+/*CONTENT*/
+
+/*BUTTON*/
+.button{
+    height: auto;
+    width: auto;
+    padding: 1rem;
+    background:rgb(154, 56, 247);
+    border-top: 1px solid rgba(112, 18, 199, 0.7);
+    border-left: 1px solid rgba(112, 18, 199, 0.7);
+    border-right: 1px solid rgba(112, 18, 199, 0.7);
+    border-bottom: 5px solid rgba(112, 18, 199, 0.7);
+    border-radius: 0.5rem;
+    font-size: 3rem;
+    color: #c9d1d9;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.button:active {
+    background: rgb(112, 18, 199);
+    border-top: 1px solid rgba(154, 56, 247, 1);
+    border-left: 1px solid rgba(154, 56, 247, 1);
+    border-right: 1px solid rgba(154, 56, 247, 1);
+    border-bottom: 5px solid rgba(154, 56, 247, 1);
+    transition: 0.4s;
+}
+/*BUTTON*/
+/*MAIN*/

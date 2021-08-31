@@ -1,0 +1,83 @@
+@import "./pages/index";
+@import "./pages/portfolio";
+@import "./pages/aboutme";
+@import "./pages/myskills";
+@import "./pages/contact";
+@import "./pages/variables";
+@import "./pages/animaciones";
+
+/*STAR*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-family;
+}
+/*STAR*/
+
+/*HTML*/
+html{
+    font-size: $font-size;
+}
+/*HTML*/
+
+/*BODY*/
+body{
+    overflow-x: hidden;
+    background: #0D1117;
+    color: #c9d1d9;
+}
+/*BODY*/
+
+
+/*CONTAINER*/
+.container-settings{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: 0;
+    padding: 0;
+}
+
+/*NAVBAR*/
+.navbar-settings{
+animation-duration: 0.5s;
+    background: #161b22;
+    .navbar-title{
+    animation-duration: 1s;
+    font-weight: 200;
+    font-size: 2.5rem;
+        .navbar-icon{
+        font-size: 3rem;
+        }
+    }
+    .navbar-menu{
+        li{
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+            a{
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+/*NAVBAR*/
+
+/*FOOTER*/
+li{
+    i{
+        color: rgba(134, 126, 126, 0.356);
+        font-size: 3rem;
+    }
+}
+/*FOOTER*/
+
+
+
+
+
+
+
+
+
+/*CONTAINER*/

@@ -1,0 +1,631 @@
+/*Font*/
+/*Colors*/
+/* Icon Fade */
+#hvr-icon-fade {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+#hvr-icon-fade {
+  transform: translateZ(0);
+  transition-duration: 0.7s;
+  transition-property: color;
+}
+
+#hvr-icon-fade:hover, #hvr-icon-fade:active {
+  color: #9a38f7;
+  transition-duration: 0.7s;
+}
+
+/* Icon Fade */
+/* Pop */
+
+@keyframes hvr-pop {
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.hvr-pop {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-pop:hover {
+  animation-name: hvr-pop;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+/* Pop */
+/* Type Writer */
+.typewriter {
+  border-right: 0.3rem solid #9a38f7;
+  /* The typwriter cursor */
+  animation: blink-caret 0.5s step-end infinite;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #9a38f7;
+  }
+}
+
+/* The typewriter cursor effect */
+/* Type Writer */
+/*MAIN*/
+/*CONTENT*/
+.article-settings .article-title--1 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.article-settings .article-title--2 {
+  font-weight: 700;
+  font-size: 6rem;
+}
+
+.article-settings .article-title--3 {
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.article-settings .article-title--4 {
+  font-weight: 700;
+  color: #9a38f7;
+}
+
+.article-settings .article-text {
+  border: 1px solid #9a38f7;
+  border-radius: 3rem;
+  font-weight: 400;
+  text-align: start;
+  font-size: 3rem;
+}
+
+/*CONTENT*/
+/*BUTTON*/
+.button {
+  height: auto;
+  width: auto;
+  padding: 1rem;
+  background: #9a38f7;
+  border-top: 1px solid rgba(112, 18, 199, 0.7);
+  border-left: 1px solid rgba(112, 18, 199, 0.7);
+  border-right: 1px solid rgba(112, 18, 199, 0.7);
+  border-bottom: 5px solid rgba(112, 18, 199, 0.7);
+  border-radius: 0.5rem;
+  font-size: 3rem;
+  color: #c9d1d9;
+  font-weight: 600;
+  transition: 0.4s;
+}
+
+.button:active {
+  background: #7012c7;
+  border-top: 1px solid #9a38f7;
+  border-left: 1px solid #9a38f7;
+  border-right: 1px solid #9a38f7;
+  border-bottom: 5px solid #9a38f7;
+  transition: 0.4s;
+}
+
+/*BUTTON*/
+/*MAIN*/
+/*Font*/
+/*Colors*/
+/* Icon Fade */
+#hvr-icon-fade {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+#hvr-icon-fade {
+  transform: translateZ(0);
+  transition-duration: 0.7s;
+  transition-property: color;
+}
+
+#hvr-icon-fade:hover, #hvr-icon-fade:active {
+  color: #9a38f7;
+  transition-duration: 0.7s;
+}
+
+/* Icon Fade */
+/* Pop */
+
+@keyframes hvr-pop {
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.hvr-pop {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-pop:hover {
+  animation-name: hvr-pop;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+/* Pop */
+/* Type Writer */
+.typewriter {
+  border-right: 0.3rem solid #9a38f7;
+  /* The typwriter cursor */
+  animation: blink-caret 0.5s step-end infinite;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #9a38f7;
+  }
+}
+
+/* The typewriter cursor effect */
+/* Type Writer */
+/*PORTFOLIO*/
+.portfolio-item {
+  height: 25rem;
+  width: 25rem;
+  background: #9a38f7;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  border-top: 1px solid rgba(112, 18, 199, 0.7);
+  border-left: 1px solid rgba(112, 18, 199, 0.7);
+  border-right: 1px solid rgba(112, 18, 199, 0.7);
+  border-bottom: 5px solid rgba(112, 18, 199, 0.7);
+}
+
+.portfolio-item:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.3s;
+  box-shadow: 0 0 5rem 0rem #9a38f7;
+}
+
+.portfolio-img {
+  height: 10rem;
+  width: 10rem;
+}
+
+.portfolio-icons {
+  font-size: 10rem;
+}
+
+.portfolio-button {
+  height: 3rem;
+  width: 6rem;
+  background: #c9d1d9;
+  border-top: 1px solid rgba(0, 0, 0, 0.7);
+  border-left: 1px solid rgba(0, 0, 0, 0.7);
+  border-right: 1px solid rgba(0, 0, 0, 0.7);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.7);
+  border-radius: 0.5rem;
+  color: #9a38f7;
+  font-weight: 600;
+  transition: 0.4s;
+}
+
+.portfolio-button:active {
+  opacity: 0.8;
+}
+
+/*PORTFOLIO*/
+/*Font*/
+/*Colors*/
+/* Icon Fade */
+#hvr-icon-fade {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+#hvr-icon-fade {
+  transform: translateZ(0);
+  transition-duration: 0.7s;
+  transition-property: color;
+}
+
+#hvr-icon-fade:hover, #hvr-icon-fade:active {
+  color: #9a38f7;
+  transition-duration: 0.7s;
+}
+
+/* Icon Fade */
+/* Pop */
+
+@keyframes hvr-pop {
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.hvr-pop {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-pop:hover {
+  animation-name: hvr-pop;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+/* Pop */
+/* Type Writer */
+.typewriter {
+  border-right: 0.3rem solid #9a38f7;
+  /* The typwriter cursor */
+  animation: blink-caret 0.5s step-end infinite;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #9a38f7;
+  }
+}
+
+/* The typewriter cursor effect */
+/* Type Writer */
+.aboutme-item {
+  height: 95%;
+  width: 80%;
+  background: #9a38f7;
+  border-radius: 0.5rem;
+  border-top: 1px solid rgba(112, 18, 199, 0.7);
+  border-left: 1px solid rgba(112, 18, 199, 0.7);
+  border-right: 1px solid rgba(112, 18, 199, 0.7);
+  border-bottom: 5px solid rgba(112, 18, 199, 0.7);
+}
+
+.aboutme-item .aboutme-title {
+  font-size: 3rem;
+}
+
+.aboutme-item div {
+  animation-duration: 2s;
+}
+
+.aboutme-item div .aboutme-icon {
+  font-size: 10rem;
+}
+
+.aboutme-item .aboutme-text-dev {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #5f0eaa;
+}
+
+.aboutme-item .aboutme-text {
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.aboutme-item .aboutme-button {
+  height: 5rem;
+  width: 15rem;
+  background: #c9d1d9;
+  border-top: 1px solid rgba(0, 0, 0, 0.7);
+  border-left: 1px solid rgba(0, 0, 0, 0.7);
+  border-right: 1px solid rgba(0, 0, 0, 0.7);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.7);
+  border-radius: 0.5rem;
+  color: #9a38f7;
+  font-weight: 600;
+  transition: 0.4s;
+  font-size: 2rem;
+}
+
+.aboutme-item .aboutme-button:active {
+  opacity: 0.8;
+}
+
+/*Font*/
+/*Colors*/
+/* Icon Fade */
+#hvr-icon-fade {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+#hvr-icon-fade {
+  transform: translateZ(0);
+  transition-duration: 0.7s;
+  transition-property: color;
+}
+
+#hvr-icon-fade:hover, #hvr-icon-fade:active {
+  color: #9a38f7;
+  transition-duration: 0.7s;
+}
+
+/* Icon Fade */
+/* Pop */
+
+@keyframes hvr-pop {
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.hvr-pop {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-pop:hover {
+  animation-name: hvr-pop;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+/* Pop */
+/* Type Writer */
+.typewriter {
+  border-right: 0.3rem solid #9a38f7;
+  /* The typwriter cursor */
+  animation: blink-caret 0.5s step-end infinite;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #9a38f7;
+  }
+}
+
+/* The typewriter cursor effect */
+/* Type Writer */
+.myskills-item {
+  height: auto;
+  width: 80%;
+  background: #9a38f7;
+  border-radius: 0.5rem;
+  border-top: 1px solid rgba(112, 18, 199, 0.7);
+  border-left: 1px solid rgba(112, 18, 199, 0.7);
+  border-right: 1px solid rgba(112, 18, 199, 0.7);
+  border-bottom: 5px solid rgba(112, 18, 199, 0.7);
+}
+
+.myskills-item .myskills-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.myskills-item .miskills-elements .miskills-icons {
+  font-size: 4rem;
+  color: #c9d1d9;
+}
+
+/*Font*/
+/*Colors*/
+/* Icon Fade */
+#hvr-icon-fade {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+#hvr-icon-fade {
+  transform: translateZ(0);
+  transition-duration: 0.7s;
+  transition-property: color;
+}
+
+#hvr-icon-fade:hover, #hvr-icon-fade:active {
+  color: #9a38f7;
+  transition-duration: 0.7s;
+}
+
+/* Icon Fade */
+/* Pop */
+
+@keyframes hvr-pop {
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.hvr-pop {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-pop:hover {
+  animation-name: hvr-pop;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+/* Pop */
+/* Type Writer */
+.typewriter {
+  border-right: 0.3rem solid #9a38f7;
+  /* The typwriter cursor */
+  animation: blink-caret 0.5s step-end infinite;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #9a38f7;
+  }
+}
+
+/* The typewriter cursor effect */
+/* Type Writer */
+/*Font*/
+/*Colors*/
+/* Icon Fade */
+#hvr-icon-fade {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+#hvr-icon-fade {
+  transform: translateZ(0);
+  transition-duration: 0.7s;
+  transition-property: color;
+}
+
+#hvr-icon-fade:hover, #hvr-icon-fade:active {
+  color: #9a38f7;
+  transition-duration: 0.7s;
+}
+
+/* Icon Fade */
+/* Pop */
+
+@keyframes hvr-pop {
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.hvr-pop {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-pop:hover {
+  animation-name: hvr-pop;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+/* Pop */
+/* Type Writer */
+.typewriter {
+  border-right: 0.3rem solid #9a38f7;
+  /* The typwriter cursor */
+  animation: blink-caret 0.5s step-end infinite;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #9a38f7;
+  }
+}
+
+/* The typewriter cursor effect */
+/* Type Writer */
+/*STAR*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+
+/*STAR*/
+/*HTML*/
+html {
+  font-size: 62.5%;
+}
+
+/*HTML*/
+/*BODY*/
+body {
+  overflow-x: hidden;
+  background: #0D1117;
+  color: #c9d1d9;
+}
+
+/*BODY*/
+/*CONTAINER*/
+.container-settings {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin: 0;
+  padding: 0;
+}
+
+/*NAVBAR*/
+.navbar-settings {
+  animation-duration: 0.5s;
+  background: #161b22;
+}
+
+.navbar-settings .navbar-title {
+  animation-duration: 1s;
+  font-weight: 200;
+  font-size: 2.5rem;
+}
+
+.navbar-settings .navbar-title .navbar-icon {
+  font-size: 3rem;
+}
+
+.navbar-settings .navbar-menu li {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.navbar-settings .navbar-menu li a {
+  font-size: 1.3rem;
+}
+
+/*NAVBAR*/
+/*FOOTER*/
+li i {
+  color: rgba(134, 126, 126, 0.356);
+  font-size: 3rem;
+}
+
+/*FOOTER*/
+/*CONTAINER*/
+/*# sourceMappingURL=estilos.css.map */

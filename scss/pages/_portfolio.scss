@@ -1,0 +1,48 @@
+@import "variables"; 
+@import "animaciones";
+
+/*PORTFOLIO*/
+.portfolio-item{
+    height: 25rem;
+    width: 25rem;
+    background: $colorbase;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+    border-top: 1px solid rgba(112, 18, 199, 0.7);
+    border-left: 1px solid rgba(112, 18, 199, 0.7);
+    border-right: 1px solid rgba(112, 18, 199, 0.7);
+    border-bottom: 5px solid rgba(112, 18, 199, 0.7);
+}
+
+.portfolio-item:hover{
+    transform: scale(1.1, 1.1);
+    transition: 0.3s;
+    box-shadow: 0 0 5rem 0rem $colorbase;
+}
+
+.portfolio-img{
+    height: 10rem;
+    width: 10rem;
+}
+
+.portfolio-icons{
+    font-size: 10rem;
+}
+.portfolio-button{
+    height: 3rem;
+    width: 6rem;
+    background: #c9d1d9;
+    border-top: 1px solid rgba(0, 0, 0, 0.7);
+    border-left: 1px solid rgba(0, 0, 0, 0.7);
+    border-right: 1px solid rgba(0, 0, 0, 0.7);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.7);
+    border-radius: 0.5rem;   
+    color: $colorbase;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.portfolio-button:active{
+    opacity: 0.8;
+}
+/*PORTFOLIO*/

@@ -1,0 +1,70 @@
+
+/* Icon Fade */
+#hvr-icon-fade {
+display: inline-block;
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+#hvr-icon-fade {
+-webkit-transform: translateZ(0);
+transform: translateZ(0);
+-webkit-transition-duration: 0.5s;
+transition-duration: 0.7s;
+-webkit-transition-property: color;
+transition-property: color;
+}
+#hvr-icon-fade:hover, #hvr-icon-fade:active {
+color: $colorbase;
+transition-duration: 0.7s
+}
+/* Icon Fade */
+
+/* Pop */
+@-webkit-keyframes hvr-pop {
+50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+}
+@keyframes hvr-pop {
+50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+}
+.hvr-pop {
+display: inline-block;
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-pop:hover {
+-webkit-animation-name: hvr-pop;
+animation-name: hvr-pop;
+-webkit-animation-duration: 0.3s;
+animation-duration: 0.3s;
+-webkit-animation-timing-function: linear;
+animation-timing-function: linear;
+-webkit-animation-iteration-count: 1;
+animation-iteration-count: 1;
+}
+/* Pop */
+
+/* Type Writer */
+.typewriter {
+    border-right: 0.3rem solid $colorbase; /* The typwriter cursor */
+    animation: blink-caret 0.5s step-end infinite;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+from, to { border-color: transparent }
+50% { border-color: $colorbase}
+}
+/* The typewriter cursor effect */
+
+/* Type Writer */
