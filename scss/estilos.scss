@@ -43,18 +43,28 @@ body{
 .navbar-settings{
 animation-duration: 0.5s;
     background: #161b22;
+    
     .navbar-title{
     animation-duration: 1s;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 2.5rem;
+
+    .navbar-title--span{
+        color: $colorbase;
+        font-weight: 700;
+        animation: logo 2.4s ease-in infinite;
+    }
         .navbar-icon{
         font-size: 3rem;
+        font-weight: 700;
+        color: $colorbase;
+        animation: logo 2.5s ease-in infinite;
         }
     }
     .navbar-menu{
         li{
-            margin-left: 0.5rem;
-            margin-right: 0.5rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
             a{
                 font-size: 1.3rem;
             }

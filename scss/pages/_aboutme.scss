@@ -3,13 +3,13 @@
 
 .aboutme-item{
     height: 95%;
-    width: 80%;
+    width: 75vw;
     background: $colorbase;
     border-radius: 0.5rem;
-    border-top: 1px solid rgba(112, 18, 199, 0.7);
-    border-left: 1px solid rgba(112, 18, 199, 0.7);
-    border-right: 1px solid rgba(112, 18, 199, 0.7);
-    border-bottom: 5px solid rgba(112, 18, 199, 0.7);
+    border-top: 2px solid rgba(112, 18, 199, 0.7);
+    border-left: 2px solid rgba(112, 18, 199, 0.7);
+    border-right: 2px solid rgba(112, 18, 199, 0.7);
+    border-bottom: 8px solid rgba(112, 18, 199, 0.7);
     .aboutme-title{
         font-size: 3rem;
     }
@@ -19,10 +19,8 @@
         font-size: 10rem;
     }
     }
-    .aboutme-text-dev{
+    .aboutme-text-dev{                                                                                                   
         font-weight: bold;
-        font-size: 2.5rem;
-        color: rgb(95, 14, 170);
     }
     .aboutme-text{
         font-weight: 500;

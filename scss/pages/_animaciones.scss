@@ -68,3 +68,57 @@ from, to { border-color: transparent }
 /* The typewriter cursor effect */
 
 /* Type Writer */
+
+/*LOGO ANIMATION*/
+@keyframes logo {
+    0%  {color: $colorbase;}
+    10% {color: rgb(150, 50, 243);}
+    20% {color: rgb(160, 55, 243);}
+    30% {color: rgb(175, 77, 240);}
+    40% {color: rgb(180, 83, 240);}
+    50% {color: rgb(189, 101, 240);}
+    60% {color: rgb(200, 123, 242);}
+    70% {color: rgb(211, 150, 242);}
+    80% {color: rgb(187, 100, 237);}
+    90% {color: rgb(175, 72, 243);}
+    100% {color: $colorbase;}
+}
+
+/* Push */
+@-webkit-keyframes hvr-push {
+    50% {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  @keyframes hvr-push {
+    50% {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  .hvr-push {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+    .hvr-push:active {
+    -webkit-animation-name: hvr-push;
+    animation-name: hvr-push;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }

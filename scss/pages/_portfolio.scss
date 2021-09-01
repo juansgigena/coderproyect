@@ -2,35 +2,44 @@
 @import "animaciones";
 
 /*PORTFOLIO*/
-.portfolio-item{
-    height: 25rem;
-    width: 25rem;
+.portfolio-animation{
+    animation-duration: 1.3s;
+}
+.portfolio-items{
+    height: 60%;
+    width: 25vw;
     background: $colorbase;
     border-radius: 0.5rem;
-    transition: 0.3s;
-    border-top: 1px solid rgba(112, 18, 199, 0.7);
-    border-left: 1px solid rgba(112, 18, 199, 0.7);
-    border-right: 1px solid rgba(112, 18, 199, 0.7);
-    border-bottom: 5px solid rgba(112, 18, 199, 0.7);
+    transition: 0.6s transform, 0.8s box-shadow;
+    border-top: 2px solid rgba(112, 18, 199, 0.7);
+    border-left: 2px solid rgba(112, 18, 199, 0.7);
+    border-right: 2px solid rgba(112, 18, 199, 0.7);
+    border-bottom: 8px solid rgba(112, 18, 199, 0.7);
+    overflow: hidden;
+}
+.portfolio-items:hover{
+    transform: scale(1.1, 1.1);
+    transition: 0.6s transform, 0.7s box-shadow;
+    box-shadow: 0 0 4rem 0rem $colorbase;
 }
 
-.portfolio-item:hover{
-    transform: scale(1.1, 1.1);
-    transition: 0.3s;
-    box-shadow: 0 0 5rem 0rem $colorbase;
-}
 
 .portfolio-img{
     height: 10rem;
     width: 10rem;
+    border: 0.4rem solid rgba(112, 18, 199, 1);
+    border-radius: 10rem;
+    background: #c9d1d9;
 }
 
 .portfolio-icons{
     font-size: 10rem;
+    color: #c9d1d9;
 }
+
 .portfolio-button{
-    height: 3rem;
-    width: 6rem;
+    height: 15%;
+    width: 40%;
     background: #c9d1d9;
     border-top: 1px solid rgba(0, 0, 0, 0.7);
     border-left: 1px solid rgba(0, 0, 0, 0.7);
@@ -38,6 +47,7 @@
     border-bottom: 5px solid rgba(0, 0, 0, 0.7);
     border-radius: 0.5rem;   
     color: $colorbase;
+    font-size: 2rem;
     font-weight: 600;
     transition: 0.4s;
 }
@@ -46,3 +56,10 @@
     opacity: 0.8;
 }
 /*PORTFOLIO*/
+
+/*MEDIAQUERYS*/
+@media screen and (max-width: 767px){
+    .portfolio-items{
+    width: 60vw;
+    }
+}
