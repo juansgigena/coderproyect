@@ -1,0 +1,32 @@
+@import "variables"; 
+@import "animaciones";
+
+/*Contact*/
+.input-contact, .input-contact:focus{
+    width: 30vw;
+    min-height: 7vh;
+    margin-bottom: 2rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+    border-left: 2px solid rgba(255, 255, 255, 0.3);
+    border-right: 2px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.6);
+    border-radius: 0.5rem;
+    box-shadow: 0 15px 20px 0.5px rgba(0, 0, 0, 0.7); 
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+.contact-button{
+    height: 15%;
+    width: 40%;
+    background: rgba(112, 18, 199, 1);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.6);
+    border-radius: 0.5rem;
+    box-shadow: 0 15px 20px 0.5px rgba(0, 0, 0, 0.7); 
+    color: $colorbase;
+    font-size: 2rem;
+    font-weight: 600;
+    transition: 0.3s;
+    }

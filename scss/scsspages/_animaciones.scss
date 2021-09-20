@@ -1,0 +1,105 @@
+/* Shrink */
+.hvr-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+/* Icon Fade */
+.hvr-icon-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+.hvr-icon-fade {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color;
+  transition-property: color;
+  transition-timing-function: ease-out;
+  }
+.hvr-icon-fade:hover, .hvr-icon-fade:active {
+  color: $colorbase;
+  transition-duration: 0.5s
+  }
+/* Type Writer */
+.typewriter {
+    border-right: 0.3rem solid $colorbase; /* The typwriter cursor */
+    animation: blink-caret 0.5s step-end infinite;
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+from, to { border-color: transparent }
+50% { border-color: $colorbase}
+}
+/*Logo animation*/
+@keyframes logo {
+    0%  {color: $colorbase;}
+    10% {color: rgb(150, 50, 243);}
+    20% {color: rgb(160, 55, 243);}
+    30% {color: rgb(175, 77, 240);}
+    40% {color: rgb(180, 83, 240);}
+    50% {color: rgb(189, 101, 240);}
+    60% {color: rgb(200, 123, 242);}
+    70% {color: rgb(211, 150, 242);}
+    80% {color: rgb(187, 100, 237);}
+    90% {color: rgb(175, 72, 243);}
+    100% {color: $colorbase;}
+}
+
+/* Icon Pulse */
+@-webkit-keyframes hvr-icon-pulse {
+  25% {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes hvr-icon-pulse {
+  25% {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+.hvr-icon-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-icon-pulse {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-icon-pulse {
+  -webkit-animation-name: hvr-icon-pulse;
+  animation-name: hvr-icon-pulse;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}

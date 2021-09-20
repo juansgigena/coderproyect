@@ -2,9 +2,16 @@
 <html lang="en">
 
 <head>
+    <!-- Meta etiquetas -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta etiquetas SEO -->
+    <meta name="description"
+        content="This is my portfolio section, where you migth see every project I´ve developed until today">
+    <meta name="keywords"
+        content="PORTOFOLIO, PROJECTS, GITHUB, WEBDESIGN, DEVELOPER, HTML, CSS, JAVASCRIPT, FRONT-END, CODERHOUSE">
+    <!-- Librerias -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,19 +20,25 @@
     <link
         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Mi CSS -->
     <link rel="stylesheet" href="../css/estilos.css">
-    <title>Document</title>
+    <!-- Titulo -->
+    <link rel="icon" type="img" href="../img/logo-coderhouse.png">
+    <title>Portfolio | Juan´s Portofolio</title>
 </head>
 
 <body>
     <div class="container-fluid container-settings animate__animated ">
 
-        <!-- MENU -->
-        <nav class="navbar navbar-expand-md navbar-settings navbar-dark sticky-top  animate__animated animate__fadeInDown">
+
+        <!-- Nav-bar -->
+        <nav
+            class="navbar navbar-expand-md navbar-settings navbar-dark sticky-top  animate__animated animate__fadeInDown">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <h1 class="navbar-title ms-2 d-flex align-items-center"> Port<span class="navbar-title--span">folio</span> 
+                    <h1 class="navbar-title ms-2 d-flex align-items-center"> Port<span
+                            class="navbar-title--span">folio</span>
                         <i class="bi-braces navbar-icon ms-2"></i>
                     </h1>
                 </a>
@@ -36,10 +49,10 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav navbar-menu text-center">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                            <a class="nav-link" href="../index.html">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                        <li class="nav-item hvr-shrink">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="aboutme.html">About me</a>
@@ -54,46 +67,79 @@
                 </div>
             </div>
         </nav>
-        <!-- MENU -->
+        <!-- Nav-bar -->
 
-        <!-- MAIN -->
-        <section class="d-flex flex-column align-items-center flex-md-row justify-content-md-evenly mb-5 mb-md-1 mt-5 mt-md-1 portfolio-animation animate__animated animate__fadeInLeft">
-                <div class=" d-flex flex-column align-items-center portfolio-items mb-5 mb-md-0 mt-5 mt-md-0">
-                    <img src="../img/logo-coderhouse.png" class="portfolio-img mt-5 mb-4" alt="coder house logo">
-                    <h3 class="text-center mt-4 mx-2">CH Final Proyect</h3>
-                    <button class="portfolio-button hvr-push mt-4 mb-5">GO!</button>
+
+        <!-- Main -->
+        <section
+            class="d-flex flex-column align-items-center justify-content-evenly flex-md-row portfolio-animation animate__animated animate__fadeInLeft">
+            <div
+                class="portoflio-items d-flex flex-column align-items-center justify-content-evenly portfolio-items mt-5 mt-md-0 mb-5 mb-md-0">
+                <div class="img-container d-flex justify-content-center align-items-center">
+                    <img src="../img/firstproyecy.png" class="portfolio-img" alt="my first web logo">
                 </div>
-                <div class="d-flex flex-column align-items-center portfolio-items mb-5 mb-md-0 mt-5 mt-md-0">
-                    <i class="bi bi-plus-circle portfolio-icons mt-4"></i> 
-                    <h3 class="text-center">Java Script...</h3>
-                    <button class="portfolio-button hvr-push mt-4 mb-5">GO!</button>
+                <h3 class="text-center">CH Final Proyect</h3>
+                <button type="button" class="portfolio-link hvr-shrink">
+                    <a class="text-decoration-none text-center text-white text-opacity-75"
+                    href="../index.html">GO!</a>
+                </button>
+            </div>
+            <div
+                class="d-flex flex-column align-items-center justify-content-evenly portfolio-items mt-5 mt-md-0 mb-5 mb-md-0">
+                <div class="img-container d-flex justify-content-center align-items-center">
+                    <img src="../img/logo-coderhouse.png" class="portfolio-img" alt="coder house logo">
                 </div>
-                <div class="d-flex flex-column align-items-center portfolio-items mb-5 mb-md-0 mt-5 mt-md-0">
-                    <i class="bi bi-plus-circle portfolio-icons mt-4"></i> 
-                    <h3 class="text-center">Coming soon...</h3>
-                    <button class="portfolio-button hvr-push mt-4 mb-5">GO!</button>
+                <h3 class="text-center">Java Script</h3>
+                <button type="button" class="portfolio-button" disabled>Next</button>
+            </div>
+            <div
+                class="d-flex flex-column align-items-center justify-content-evenly portfolio-items mt-5 mt-md-0 mb-5 mb-md-0">
+                <div class="img-container d-flex justify-content-center align-items-center">
+                    <img src="../img/logo-coderhouse.png" class="portfolio-img" alt="coder house logo">
                 </div>
+                <h3 class="text-center">React js</h3>
+                <button type="button" class="portfolio-button" disabled>Next</button>
+            </div>
         </section>
-        <!-- MAIN -->
+        <!-- Main -->
 
-        <!-- FOOTER -->
+
+        <!-- Footer -->
         <footer class="d-flex flex-column footer-settings">
             <h2 class="text-center mb-3">Social Media</h2>
             <ul class="nav justify-content-evenly mb-3">
-                <li><a href="#"><i class="bi-github hvr-pop" id="hvr-icon-fade"></i></a></li>
-                <li><a href="#"><i class="bi-linkedin hvr-pop" id="hvr-icon-fade"></i></a></li>
-                <li><a href="#"><i class="bi-slack hvr-pop" id="hvr-icon-fade"></i></a></li>
+                <li>
+                    <a href="https://github.com/juansgigena">
+                        <i class="icon-settings bi-github hvr-icon-fade"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/juan-sebast%C3%ADan-gigena-552a65220/">
+                        <i class="icon-settings bi-linkedin hvr-icon-fade"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://stackoverflow.com/users/16952503/juan-sebast%c3%adan-gigena">
+                        <i class="icon-settings fab fa-stack-overflow hvr-icon-fade"></i>
+                    </a>
+                </li>
             </ul>
         </footer>
-        <!-- FOOTER -->
+        <!-- Footer -->
     </div>
-    <script src="../js/bootstrap.bundle.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+        </script>
+    <script src="../js/javascript.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
-        integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
-        crossorigin="anonymous"></script>
+        integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous">
+        </script>
+    <!-- Script -->
+
+
 </body>
 
 </html>
-
-

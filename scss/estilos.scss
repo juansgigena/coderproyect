@@ -1,36 +1,32 @@
-@import "./pages/index";
-@import "./pages/portfolio";
-@import "./pages/aboutme";
-@import "./pages/myskills";
-@import "./pages/contact";
-@import "./pages/variables";
-@import "./pages/animaciones";
+@import "./scsspages/index";
+@import "./scsspages/portfolio";
+@import "./scsspages/aboutme";
+@import "./scsspages/myskills";
+@import "./scsspages/contact";
+@import "./scsspages/variables";
+@import "./scsspages/animaciones";
 
-/*STAR*/
+/*Star*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: $font-family;
 }
-/*STAR*/
 
-/*HTML*/
+/*Html*/
 html{
     font-size: $font-size;
 }
-/*HTML*/
 
-/*BODY*/
+/*Body*/
 body{
     overflow-x: hidden;
     background: #0D1117;
     color: #c9d1d9;
 }
-/*BODY*/
 
-
-/*CONTAINER*/
+/*Container*/
 .container-settings{
     min-height: 100vh;
     display: grid;
@@ -39,11 +35,12 @@ body{
     padding: 0;
 }
 
-/*NAVBAR*/
+/*Nav-bar*/
 .navbar-settings{
 animation-duration: 0.5s;
-    background: #161b22;
-    
+    background: #181c229a;
+    backdrop-filter: blur(1px);
+    box-shadow: 0 10px 70px 0.5px rgba(255, 255, 255, 0.2) ;
     .navbar-title{
     animation-duration: 1s;
     font-weight: 400;
@@ -71,23 +68,16 @@ animation-duration: 0.5s;
         }
     }
 }
-/*NAVBAR*/
 
-/*FOOTER*/
-li{
-    i{
-        color: rgba(134, 126, 126, 0.356);
-        font-size: 3rem;
-    }
+/*Footer*/
+.icon-settings{
+    background: #0D1117;
+    color: rgba(134, 126, 126, 0.356);
+    font-size: 3rem;
 }
-/*FOOTER*/
 
 
 
 
 
 
-
-
-
-/*CONTAINER*/
